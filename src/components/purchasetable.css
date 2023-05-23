@@ -1,0 +1,38 @@
+.purchase-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: aqua;
+    background-color: aquamarine;
+  }
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+  }
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .purchase-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .purchase-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .purchase-table .total {
+    font-weight: bold;
+  }
+  
+  .purchase-table .empty-message {
+    text-align: center;
+    padding: 20px;
+    color: #999;
+  }
+  
